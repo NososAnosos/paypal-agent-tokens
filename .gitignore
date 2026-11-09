@@ -1,0 +1,8 @@
+# secrets and local state - never publish
+.env
+.env.*
+!.env.example
+*.db
+*.log
+__pycache__/
+*.pyc
